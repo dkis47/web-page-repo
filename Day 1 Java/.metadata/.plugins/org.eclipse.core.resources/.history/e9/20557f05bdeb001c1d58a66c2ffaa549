@@ -1,0 +1,7 @@
+
+public class Character {
+	String name= "Mario";
+	int health = 10;
+	String catchphrase = " It s a me Mario";
+
+}

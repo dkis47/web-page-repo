@@ -1,0 +1,12 @@
+
+public class Character {
+	String name;
+	int health = 10;
+	String catchphrase = " It s a me Mario";
+	
+	Character(String passedName){
+	this.name=passedName;
+	
+
+}
+}

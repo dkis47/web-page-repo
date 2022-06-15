@@ -1,0 +1,14 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		String Hello = "Hello World";
+		System.out.println(Hello);
+		AnotherJavaFile a1 = new AnotherJavaFile();
+		System.out.println(a1.name+ " is " +a1.age + " years old");
+
+	}
+
+}

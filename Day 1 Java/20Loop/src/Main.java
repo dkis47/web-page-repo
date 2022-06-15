@@ -1,0 +1,29 @@
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter the number of iterations: ");
+		int n = sc.nextInt();
+		
+
+		for (int i = 1; i <= n; i++) {
+			System.out.println("Value of i is: " + i);
+
+		}
+	int j=1;
+	while (j<=n) {
+		System.out.println("Code was executed "+j+" number of times");
+		System.out.println("Stop the code");
+		j++;
+		String input = sc.nextLine();
+		if(input.equals("stop")) {
+			break;
+		}
+	}
+
+	}
+
+}

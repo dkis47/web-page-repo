@@ -1,0 +1,8 @@
+
+public class AnotherJavaFile {
+	String name="Dan";
+	int age=21;
+	
+	
+
+}

@@ -1,0 +1,46 @@
+import java.util.Scanner;
+public class Main {
+
+	public static void main(String[] args) {
+		
+		Scanner text = new Scanner(System.in);
+		System.out.println("Enter the text to check if its pangram: ");
+		String check = text.nextLine();
+		 String x = check.toLowerCase();
+	        if	(x.contains("a") 
+	        		&& x.contains("b")
+	        		&& x.contains("c") 
+	        		&& x.contains("d")
+	                && x.contains("e")
+	                && x.contains("f") 
+	                && x.contains("g")
+	                && x.contains("h") 
+	                && x.contains("i")
+	                && x.contains("j")
+	                && x.contains("k") 
+	                && x.contains("l") 
+	                && x.contains("m")
+	                && x.contains("n") 
+	                && x.contains("o") 
+	                && x.contains("p")
+	                && x.contains("q")
+	                && x.contains("r") 
+	                && x.contains("s")
+	                && x.contains("t") 
+	                && x.contains("u") 
+	                && x.contains("v")
+	                && x.contains("w")
+	                && x.contains("x")
+	                && x.contains("y")
+	                && x.contains("z")){
+	            System.out.println("Sentence is Pangram");;
+	        }else{
+	            System.out.println("Sentence is not Pangram");;
+		
+		
+		
+		
+
+	}
+
+}}

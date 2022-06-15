@@ -1,0 +1,22 @@
+
+	
+
+public class Character {
+	String name,hairColor;
+	int attack,defence,health,speed;
+	
+	
+	// Constructor - same spelling as the same class
+	Character(String name, String hairColor, int attack, int defence, int health, int speed){
+	this.name=name;
+	this.hairColor=hairColor;
+	this.attack = attack;
+	this.defence = defence;
+	this.health = health;
+	this.speed = speed;
+	
+	
+
+}
+
+}

@@ -1,0 +1,39 @@
+import java.util.Scanner;
+public class Main {
+
+	public static void main(String[] args) {
+		
+		// TODO Auto-generated method stub
+		
+		Scanner scan = new Scanner(System.in);
+		System.out.print("What day is today? ");
+		
+		String day = scan.nextLine();
+		System.out.println(day);
+		
+		
+		if (day.equals("Monday")) {
+				System.out.println("Monday");}
+			else if (day=="Tuesday") {
+				System.out.println("Tuesday");
+			}
+			else if (day=="Wednesday") {
+				System.out.println("Wednesday");
+			}
+			else if (day=="Thursday") {
+				System.out.println("Thursday");
+			}
+			else if (day=="Friday") {
+				System.out.println("Friday");
+			}
+			else if (day=="Saturday") {
+				System.out.println("Saturday");
+			}
+			else {
+				System.out.println("Sunday");
+			}
+		}
+
+	}
+
+

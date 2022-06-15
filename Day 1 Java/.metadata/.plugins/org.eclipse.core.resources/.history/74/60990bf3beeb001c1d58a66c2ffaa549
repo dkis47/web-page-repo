@@ -1,0 +1,24 @@
+
+public class Character {
+	String name;
+	int health;
+	String catchphrase;
+	
+	// Constructor - same spelling as the same class
+	Character(String passedName, int health, String catchphrase){
+	this.name=passedName;
+	this.health = health;
+	this.catchphrase=catchphrase;
+	
+
+}	//Second Constructor
+	public Character (String name, int health){
+		this.name =name;
+		this.health = health;
+		
+	}
+	
+	Character(){
+		
+	}
+}

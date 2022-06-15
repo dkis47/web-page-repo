@@ -1,0 +1,45 @@
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Scanner sc = new Scanner(System.in);
+		System.out.println("What is your first number? ");
+		int a = sc.nextInt();
+		
+		Scanner sc2 = new Scanner(System.in);
+		System.out.println("What is your mathematical operator? ");
+		String op = sc.nextLine();
+		
+		Scanner sc3 = new Scanner(System.in);
+		System.out.println("What is your second number? ");
+		int b = sc3.nextInt();
+		
+		// int age = integer.parseInt(input); 
+		// math.floor or math.ceil to round number correctly 
+		// casting 
+		if (op.equals("+")) {
+			System.out.println("Result of your operation is :"+(a+b));
+		}
+		else if (op.equals("-")) {
+			System.out.println("Result of your operation is :"+(a-b));
+		}
+		else if (op.equals("-")) {
+			System.out.println("Result of your operation is :"+(a*b));
+		}
+		else if (op.equals("-")) {
+			System.out.println("Result of your operation is :"+(a/b));
+		}
+		else if (op.equals("-")) {
+			System.out.println("Result of your operation is :"+(a%b));
+		}
+		
+		
+		
+	
+
+	}
+
+}

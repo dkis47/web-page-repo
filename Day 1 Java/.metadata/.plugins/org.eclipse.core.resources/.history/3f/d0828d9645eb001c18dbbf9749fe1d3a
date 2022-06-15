@@ -1,0 +1,27 @@
+import java.io.*;
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// Split string using space between words and place them into array []
+		String sentence = "Are you excited as I am?";
+		String reverseSentence ="";
+		
+		String[] split=sentence.split(" ");
+		
+		
+		//for loop that iterate backwards 
+		
+		for (int i=split.length;i<=0;i--) {
+			reverseSentence = reverseSentence + split[i] +" ";
+			
+		}
+		
+		System.out.println(reverseSentence);
+		
+	
+
+	}
+
+}

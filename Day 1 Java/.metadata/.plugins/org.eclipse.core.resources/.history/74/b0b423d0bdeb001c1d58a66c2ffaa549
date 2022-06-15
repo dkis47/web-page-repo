@@ -1,0 +1,18 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Character c = new Character();
+		System.out.println(c.name+ " "+c.catchphrase);
+		c.name="Luigi";
+		System.out.println(c.name);
+		
+		Character mario = new Character();
+		Character luigi = new Character();
+		System.out.println(mario.name);
+		System.out.println(luigi.name);
+
+	}
+
+}

@@ -1,0 +1,18 @@
+
+public class Print {
+
+
+	String name="Dan";
+	int age=21;
+	
+	
+	public static void printToScreen() {
+		System.out.println("Hello World");
+	}
+	
+	
+	}
+
+
+
+
